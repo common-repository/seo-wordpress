@@ -1,0 +1,31 @@
+{
+    "name": "praison/seo-wordpress",
+	  "description": "SEO Wordpress Plugin by Mervin Praison is a Powerfull Plugin which has many SEO Features. Google Authorship and Google Analytics Integration.",
+	  "keywords": [
+		  "seo",
+		  "wordpress"
+	  ],
+	  "homepage": "https://praison.com/wordpress/plugins/seo/",
+	  "license": "GPL-2.0-or-later",
+	  "authors": [
+		 {
+			"name": "Praison",
+			"homepage": "https://praison.com"
+		 }
+	  ],
+	"type": "wordpress-plugin",
+	"require": {
+		"composer/installers": "~1.0",
+		"xrstf/composer-php52": "^1.0.20"
+	},
+	"require-dev": {
+		"codeclimate/php-test-reporter": "dev-master"
+	},
+	"minimum-stability": "dev",
+	"prefer-stable": true,
+    "extra": {
+	"branch-alias": {
+	    "dev-master": "4.0-dev"
+	}
+    }
+}
